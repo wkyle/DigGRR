@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Exec=diggrr
+Icon=/usr/local/DigGRR/assets/logo.png
+Terminal=false
+Name=DigGRR
+GenericName=Linear Regression and Plotting
+Comment=DigGRR: Linear Regression and Plotting
+Categories=KDE;Application;Education;Science

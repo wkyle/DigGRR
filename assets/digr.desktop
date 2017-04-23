@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=digr.py
+Icon=/home/wes/Personal/python/DigGRR/assets/logo.png
+Terminal=false
+Name=DigGRR
+GenericName=DigGRR
+Comment=Linear Regression and Plotting
+Categories=KDE;Application;Education;Science

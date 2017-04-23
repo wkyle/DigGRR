@@ -1,0 +1,34 @@
+# DO NOT MODIFY THESE VARIABLES!
+export SUDO_ASKPASS=~/bin/SudoPass.sh
+SUDO="sudo -A DEBIAN_FRONTEND=noninteractive"
+
+# EVERYTHING BELOW THIS LINE IS CUSTOMIZABLE TO YOUR NEEDS (SEE NEXT LINE FOR AN EXAMPLE ENTRY)
+
+DIR="/home/pjlmaint/bin/PJL/TASKS/2016-image/files" # sets the location of all new folders/files
+
+# This task installes Diggrr.
+
+#$SUDO apt-get update && echo "Now patching $HOSTNAME..." && $SUDO apt-get install --only-upgrade bash
+echo "############################ Now executing DiGGRR tasks on $HOSTNAME... ############################" && \
+
+
+$SUDO mv /usr/local/DigGRR /usr/local/DigGRR.old
+$SUDO cp -avf $DIR/DigGRR /usr/local
+#$SUDO chown -Rc root: /usr/local/DigGRR
+#$SUDO chmod 755 /usr/local/DigGRR/
+#$SUDO cp -avf /usr/local/DigGRR/linFit/diggrr-1.0.0 /usr/local/bin
+#$SUDO chown -Rc root: /usr/local/bin/diggrr-1.0.0
+#$SUDO chmod 755 root: /usr/local/bin/diggrr-1.0.0
+#$SUDO ln -s /usr/local/bin/diggrr-1.0.0 /usr/local/bin/diggrr
+#$SUDO apt-get install -y python3-dev
+#$SUDO apt-get install -y python3-scipy
+#$SUDO apt-get install -y python3-pip
+#$SUDO pip3 install matplotlib
+#$SUDO apt-get install -y libgtk-3-dev
+#$SUDO apt-get install -y python3-cairo-dev
+#$SUDO apt-get install -y python3-gi-cairo
+#$SUDO apt-get install -y gir1.2-poppler-0.18
+#$SUDO cp -avf /usr/local/DigGRR/linFit/DigGRR.desktop /usr/share/applications 
+#$SUDO update-desktop-database
+#$SUDO update-desktop-database
+#$SUDO update-desktop-database
